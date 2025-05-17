@@ -1,5 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using WebBanHang.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDbContext<DataContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration["ConnectionStrings:ConnectedDb"]);
+}
+);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
