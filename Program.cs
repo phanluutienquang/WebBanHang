@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using WebBanHang.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -31,5 +32,9 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+//Seeding Data
+var context = app.Services.CreateScope().ServiceProvider.GetRequiredService<DataContext>();
+SeedData.SeedingData(context);
 
 app.Run();
