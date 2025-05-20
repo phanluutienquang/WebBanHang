@@ -11,8 +11,8 @@ using WebBanHang.Repository;
 namespace WebBanHang.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20250517172314_FirstMigration")]
-    partial class FirstMigration
+    [Migration("20250520163748_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,7 +49,7 @@ namespace WebBanHang.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("BrandModels");
+                    b.ToTable("Brands");
                 });
 
             modelBuilder.Entity("WebBanHang.Models.CategoryModel", b =>

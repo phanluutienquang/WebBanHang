@@ -46,7 +46,7 @@ namespace WebBanHang.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("BrandModels");
+                    b.ToTable("Brands");
                 });
 
             modelBuilder.Entity("WebBanHang.Models.CategoryModel", b =>

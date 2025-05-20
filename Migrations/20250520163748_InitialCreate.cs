@@ -5,13 +5,13 @@
 namespace WebBanHang.Migrations
 {
     /// <inheritdoc />
-    public partial class FirstMigration : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "BrandModels",
+                name: "Brands",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -23,7 +23,7 @@ namespace WebBanHang.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_BrandModels", x => x.Id);
+                    table.PrimaryKey("PK_Brands", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -60,9 +60,9 @@ namespace WebBanHang.Migrations
                 {
                     table.PrimaryKey("PK_Products", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Products_BrandModels_BrandId",
+                        name: "FK_Products_Brands_BrandId",
                         column: x => x.BrandId,
-                        principalTable: "BrandModels",
+                        principalTable: "Brands",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -91,7 +91,7 @@ namespace WebBanHang.Migrations
                 name: "Products");
 
             migrationBuilder.DropTable(
-                name: "BrandModels");
+                name: "Brands");
 
             migrationBuilder.DropTable(
                 name: "Categories");
