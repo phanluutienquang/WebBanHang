@@ -27,12 +27,24 @@ namespace WebBanHang.Controllers
         {
             return View("~/Views/Checkout/Index.cshtml");
         }
-        public async Task<IActionResult> Add(long Id)
+        public async Task<IActionResult> Add(int Id)
         {
             ProductModel product = await _dataContext.Products.FindAsync(Id);
             List<CartItemModel> cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
             CartItemModel cartItems = cart.Where(c => c.ProductId == Id).FirstOrDefault();
 
+            if (cartItems == null)
+            {
+                cart.Add(new CartItemModel(product));
+            }
+            else 
+            {
+                cartItems.Quantity += 1;
+            }
+
+            HttpContext.Session.SetJson("Cart", cart);
+            TempData["success"] = "Add Product to cart Sucessfully! ";
+            return Redirect(Request.Headers["Referer"].ToString());
         }
     }
 }
