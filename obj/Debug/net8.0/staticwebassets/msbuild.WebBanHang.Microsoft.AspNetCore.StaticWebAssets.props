@@ -1386,23 +1386,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WebBanHang.dkxk71purv.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WebBanHang.srwzz0o2ul.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>WebBanHang</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/WebBanHang</BasePath>
-      <RelativePath>WebBanHang.dkxk71purv.bundle.scp.css</RelativePath>
+      <RelativePath>WebBanHang.srwzz0o2ul.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>dkxk71purv</Fingerprint>
-      <Integrity>7QEosKEUI6oHIQUKEFwl9VYmYGvip5zjHU2I1XHdYnY=</Integrity>
+      <Fingerprint>srwzz0o2ul</Fingerprint>
+      <Integrity>qJOCGmavQKRyjSU/IMuhnWN2YvBPwTtDEqZqSRGh40M=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WebBanHang.dkxk71purv.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WebBanHang.srwzz0o2ul.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>
