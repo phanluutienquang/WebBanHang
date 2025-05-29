@@ -3,6 +3,7 @@
     ViewData["title"] = "Product Listed";
 }
 <h3>List Product</h3>
+<a asp-action="Create" asp-controller="Product">Add Product</a>
 <table class="table">
     <thead>
         <tr>
@@ -14,13 +15,14 @@
             <th scope="col">Product Slug</th>
             <th scope="col">Product Category</th>
             <th scope="col">Product Brand</th>
+            <th scope="col">Product Manage</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
             <tr>
-                <th scope="row">1</th>
+                <th scope="row">@item.Id</th>
                 <td>@item.Name</td>
                 <td>@item.Description</td>
                 <td>@item.Price</td>
@@ -28,6 +30,10 @@
                 <td>@item.Slug</td>
                 <td>@item.Category.Name</td>
                 <td>@item.Brand.Name</td>
+                <td>
+                    <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="Product" asp-route-Id="@item.Id">Add</a>
+                    <a asp-action="Delete" class="btn btn-warning btn-sm" asp-controller="Product" asp-route-Id="@item.Id">Delete</a>
+                </td>
             </tr>
         }
     </tbody>
