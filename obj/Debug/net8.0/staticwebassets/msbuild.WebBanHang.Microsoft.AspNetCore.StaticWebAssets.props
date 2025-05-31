@@ -1386,6 +1386,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanHang</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanHang</BasePath>
+      <RelativePath>media/products/8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zys419qktw</Fingerprint>
+      <Integrity>q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebBanHang</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebBanHang</BasePath>
+      <RelativePath>media/products/90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zys419qktw</Fingerprint>
+      <Integrity>q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WebBanHang.srwzz0o2ul.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>WebBanHang</SourceId>

@@ -11,7 +11,7 @@ using WebBanHang.Repository;
 namespace WebBanHang.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20250530163910_FirstMigration")]
+    [Migration("20250531163003_FirstMigration")]
     partial class FirstMigration
     {
         /// <inheritdoc />
@@ -41,7 +41,6 @@ namespace WebBanHang.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Slug")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Status")
@@ -69,7 +68,6 @@ namespace WebBanHang.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Slug")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Status")
@@ -99,7 +97,6 @@ namespace WebBanHang.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -110,7 +107,6 @@ namespace WebBanHang.Migrations
                         .HasColumnType("decimal(8,2)");
 
                     b.Property<string>("Slug")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

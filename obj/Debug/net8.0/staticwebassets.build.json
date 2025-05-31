@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "F3nQXOeDnC7KLpXuF1bCH27t0ZcQuAI8URQ1z+6Q5Vw=",
+  "Hash": "qLqlkIgF97rMN4+bAZmYGEqwWklW+XTmYQAMKnRFJAw=",
   "Source": "WebBanHang",
   "BasePath": "_content/WebBanHang",
   "Mode": "Default",
@@ -1674,6 +1674,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "media/products/8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zys419qktw",
+      "Integrity": "q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "media/products/90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zys419qktw",
+      "Integrity": "q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg"
     }
   ],
   "Endpoints": [
@@ -7988,6 +8030,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 16:52:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.zys419qktw.jpg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 16:52:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zys419qktw"
+        },
+        {
+          "Name": "label",
+          "Value": "media/products/8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 16:53:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.zys419qktw.jpg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 16:53:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zys419qktw"
+        },
+        {
+          "Name": "label",
+          "Value": "media/products/90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw="
         }
       ]
     },

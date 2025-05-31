@@ -313,6 +313,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebBanHang.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

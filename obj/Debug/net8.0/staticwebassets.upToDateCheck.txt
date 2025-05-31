@@ -75,3 +75,5 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\media\products\8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg
+wwwroot\media\products\90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg

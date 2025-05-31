@@ -924,6 +924,30 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 15 May 2025 16:05:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebBanHang/media/products/8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"59147"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 16:52:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebBanHang/media/products/8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.zys419qktw.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zys419qktw"},{"Name":"integrity","Value":"sha256-q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw="},{"Name":"label","Value":"_content/WebBanHang/media/products/8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"59147"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 16:52:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebBanHang/media/products/90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"59147"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 16:53:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebBanHang/media/products/90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.zys419qktw.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zys419qktw"},{"Name":"integrity","Value":"sha256-q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw="},{"Name":"label","Value":"_content/WebBanHang/media/products/90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"59147"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 16:53:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebBanHang/WebBanHang.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\WebBanHang.srwzz0o2ul.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
