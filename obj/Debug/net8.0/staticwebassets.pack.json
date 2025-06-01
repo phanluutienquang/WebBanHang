@@ -313,12 +313,24 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\26ef557d-af19-49c3-a08f-0e0362753dc6_516d6746-cb0f-46be-980c-f667bdd7d63a_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\26ef557d-af19-49c3-a08f-0e0362753dc6_516d6746-cb0f-46be-980c-f667bdd7d63a_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\344c12cb-25a9-4e81-992e-4d5df55ea3bd_4daad9c4-403b-400b-92d2-a331f3ee873b_71kBeFDgCkL._AC_UF894,1000_QL80_.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\344c12cb-25a9-4e81-992e-4d5df55ea3bd_4daad9c4-403b-400b-92d2-a331f3ee873b_71kBeFDgCkL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg",
       "PackagePath": "staticwebassets\\media\\products\\8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\90d438d9-9822-4991-95af-f562a4699c24_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg"
+      "Id": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\aa20ac1c-4aae-4e8a-89e0-658c87e8da9a_dell_latitude_3420_a5.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\aa20ac1c-4aae-4e8a-89e0-658c87e8da9a_dell_latitude_3420_a5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\fb27fad0-49a1-4a48-8a49-4a424d9dcd90_b7802bf6-21e9-4307-a19e-447854ca69d6_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\fb27fad0-49a1-4a48-8a49-4a424d9dcd90_b7802bf6-21e9-4307-a19e-447854ca69d6_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebBanHang.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
