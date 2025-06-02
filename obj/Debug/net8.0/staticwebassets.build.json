@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8435y389V3smOaJ72eQ7tmJG6qEFqrVxQJbWms66Me0=",
+  "Hash": "kgaEjiHU0+1yJZ31zGjp1J+r0y9CQr3dGBB8wciAbUU=",
   "Source": "WebBanHang",
   "BasePath": "_content/WebBanHang",
   "Mode": "Default",
@@ -1676,12 +1676,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\26ef557d-af19-49c3-a08f-0e0362753dc6_516d6746-cb0f-46be-980c-f667bdd7d63a_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg",
+      "Identity": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\89ba8e46-26cd-44b7-8e10-20d1c2c88310_0c77aa11-dd40-476e-b69e-249bc3ef983b_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
-      "RelativePath": "media/products/26ef557d-af19-49c3-a08f-0e0362753dc6_516d6746-cb0f-46be-980c-f667bdd7d63a_81Jp6ol-1kL._AC_UF350,350_QL80_#[.{fingerprint}]?.jpg",
+      "RelativePath": "media/products/89ba8e46-26cd-44b7-8e10-20d1c2c88310_0c77aa11-dd40-476e-b69e-249bc3ef983b_81Jp6ol-1kL._AC_UF350,350_QL80_#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1694,28 +1694,7 @@
       "Integrity": "IEh7kqrv19toGG2bhl7UrZH1g1oRKg8ksHi6AqWcc6o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\media\\products\\26ef557d-af19-49c3-a08f-0e0362753dc6_516d6746-cb0f-46be-980c-f667bdd7d63a_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\344c12cb-25a9-4e81-992e-4d5df55ea3bd_4daad9c4-403b-400b-92d2-a331f3ee873b_71kBeFDgCkL._AC_UF894,1000_QL80_.jpg",
-      "SourceId": "WebBanHang",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\",
-      "BasePath": "_content/WebBanHang",
-      "RelativePath": "media/products/344c12cb-25a9-4e81-992e-4d5df55ea3bd_4daad9c4-403b-400b-92d2-a331f3ee873b_71kBeFDgCkL._AC_UF894,1000_QL80_#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "qhh1wmw6d3",
-      "Integrity": "zsb/94TcNos8Uq34Hgt1oYYm3CpahE+Pbw74iFd+TNk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\media\\products\\344c12cb-25a9-4e81-992e-4d5df55ea3bd_4daad9c4-403b-400b-92d2-a331f3ee873b_71kBeFDgCkL._AC_UF894,1000_QL80_.jpg"
+      "OriginalItemSpec": "wwwroot\\media\\products\\89ba8e46-26cd-44b7-8e10-20d1c2c88310_0c77aa11-dd40-476e-b69e-249bc3ef983b_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg",
@@ -1737,27 +1716,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\products\\8c5af35b-7248-486c-a484-3283e1ef6fce_633b4a2741039d3740045a55-dell-inspiron-15-6-inch-hd-touchscreen.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\aa20ac1c-4aae-4e8a-89e0-658c87e8da9a_dell_latitude_3420_a5.jpg",
-      "SourceId": "WebBanHang",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\",
-      "BasePath": "_content/WebBanHang",
-      "RelativePath": "media/products/aa20ac1c-4aae-4e8a-89e0-658c87e8da9a_dell_latitude_3420_a5#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "aagqb7opwu",
-      "Integrity": "8vt8MWzZxUlXAkxQsw9McQgtY9K5HgLtbRclk2MP1nY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\media\\products\\aa20ac1c-4aae-4e8a-89e0-658c87e8da9a_dell_latitude_3420_a5.jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\fb27fad0-49a1-4a48-8a49-4a424d9dcd90_b7802bf6-21e9-4307-a19e-447854ca69d6_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg",
@@ -8097,8 +8055,8 @@
       ]
     },
     {
-      "Route": "media/products/26ef557d-af19-49c3-a08f-0e0362753dc6_516d6746-cb0f-46be-980c-f667bdd7d63a_81Jp6ol-1kL._AC_UF350,350_QL80_.0020i73hob.jpg",
-      "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\26ef557d-af19-49c3-a08f-0e0362753dc6_516d6746-cb0f-46be-980c-f667bdd7d63a_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg",
+      "Route": "media/products/89ba8e46-26cd-44b7-8e10-20d1c2c88310_0c77aa11-dd40-476e-b69e-249bc3ef983b_81Jp6ol-1kL._AC_UF350,350_QL80_.0020i73hob.jpg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\89ba8e46-26cd-44b7-8e10-20d1c2c88310_0c77aa11-dd40-476e-b69e-249bc3ef983b_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8119,7 +8077,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 17:18:27 GMT"
+          "Value": "Mon, 02 Jun 2025 17:13:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8133,7 +8091,7 @@
         },
         {
           "Name": "label",
-          "Value": "media/products/26ef557d-af19-49c3-a08f-0e0362753dc6_516d6746-cb0f-46be-980c-f667bdd7d63a_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg"
+          "Value": "media/products/89ba8e46-26cd-44b7-8e10-20d1c2c88310_0c77aa11-dd40-476e-b69e-249bc3ef983b_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg"
         },
         {
           "Name": "integrity",
@@ -8142,8 +8100,8 @@
       ]
     },
     {
-      "Route": "media/products/26ef557d-af19-49c3-a08f-0e0362753dc6_516d6746-cb0f-46be-980c-f667bdd7d63a_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg",
-      "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\26ef557d-af19-49c3-a08f-0e0362753dc6_516d6746-cb0f-46be-980c-f667bdd7d63a_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg",
+      "Route": "media/products/89ba8e46-26cd-44b7-8e10-20d1c2c88310_0c77aa11-dd40-476e-b69e-249bc3ef983b_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\89ba8e46-26cd-44b7-8e10-20d1c2c88310_0c77aa11-dd40-476e-b69e-249bc3ef983b_81Jp6ol-1kL._AC_UF350,350_QL80_.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8164,7 +8122,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 17:18:27 GMT"
+          "Value": "Mon, 02 Jun 2025 17:13:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8175,88 +8133,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-IEh7kqrv19toGG2bhl7UrZH1g1oRKg8ksHi6AqWcc6o="
-        }
-      ]
-    },
-    {
-      "Route": "media/products/344c12cb-25a9-4e81-992e-4d5df55ea3bd_4daad9c4-403b-400b-92d2-a331f3ee873b_71kBeFDgCkL._AC_UF894,1000_QL80_.jpg",
-      "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\344c12cb-25a9-4e81-992e-4d5df55ea3bd_4daad9c4-403b-400b-92d2-a331f3ee873b_71kBeFDgCkL._AC_UF894,1000_QL80_.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "43087"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zsb/94TcNos8Uq34Hgt1oYYm3CpahE+Pbw74iFd+TNk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 01 Jun 2025 16:25:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-zsb/94TcNos8Uq34Hgt1oYYm3CpahE+Pbw74iFd+TNk="
-        }
-      ]
-    },
-    {
-      "Route": "media/products/344c12cb-25a9-4e81-992e-4d5df55ea3bd_4daad9c4-403b-400b-92d2-a331f3ee873b_71kBeFDgCkL._AC_UF894,1000_QL80_.qhh1wmw6d3.jpg",
-      "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\344c12cb-25a9-4e81-992e-4d5df55ea3bd_4daad9c4-403b-400b-92d2-a331f3ee873b_71kBeFDgCkL._AC_UF894,1000_QL80_.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "43087"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zsb/94TcNos8Uq34Hgt1oYYm3CpahE+Pbw74iFd+TNk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 01 Jun 2025 16:25:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qhh1wmw6d3"
-        },
-        {
-          "Name": "label",
-          "Value": "media/products/344c12cb-25a9-4e81-992e-4d5df55ea3bd_4daad9c4-403b-400b-92d2-a331f3ee873b_71kBeFDgCkL._AC_UF894,1000_QL80_.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zsb/94TcNos8Uq34Hgt1oYYm3CpahE+Pbw74iFd+TNk="
         }
       ]
     },
@@ -8339,88 +8215,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-q3CONMwkfyd/uqsj8a88SULKsmNPtk0JSBNmfF6Y2Qw="
-        }
-      ]
-    },
-    {
-      "Route": "media/products/aa20ac1c-4aae-4e8a-89e0-658c87e8da9a_dell_latitude_3420_a5.aagqb7opwu.jpg",
-      "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\aa20ac1c-4aae-4e8a-89e0-658c87e8da9a_dell_latitude_3420_a5.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "43048"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8vt8MWzZxUlXAkxQsw9McQgtY9K5HgLtbRclk2MP1nY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 17:07:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "aagqb7opwu"
-        },
-        {
-          "Name": "label",
-          "Value": "media/products/aa20ac1c-4aae-4e8a-89e0-658c87e8da9a_dell_latitude_3420_a5.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8vt8MWzZxUlXAkxQsw9McQgtY9K5HgLtbRclk2MP1nY="
-        }
-      ]
-    },
-    {
-      "Route": "media/products/aa20ac1c-4aae-4e8a-89e0-658c87e8da9a_dell_latitude_3420_a5.jpg",
-      "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\media\\products\\aa20ac1c-4aae-4e8a-89e0-658c87e8da9a_dell_latitude_3420_a5.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "43048"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8vt8MWzZxUlXAkxQsw9McQgtY9K5HgLtbRclk2MP1nY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 17:07:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8vt8MWzZxUlXAkxQsw9McQgtY9K5HgLtbRclk2MP1nY="
         }
       ]
     },

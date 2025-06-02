@@ -91,15 +91,15 @@ public async Task<IActionResult> Edit(int Id)
 
             return View(product);
         }
-               
+                       
         
-         [HttpPost]
+        [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int Id,ProductModel product)
+        public async Task<IActionResult> Edit(ProductModel product)
         {
             ViewBag.Categories = new SelectList(_dataContext.Categories, "Id", "Name", product.CategoryId);
             ViewBag.Brands = new SelectList(_dataContext.Brands, "Id", "Name", product.BrandId);
-
+            var existed_product = _dataContext.Products.Find(product.Id); // tìm sp theo id product
             if (ModelState.IsValid)
             {
                 product.Slug = product.Name.Replace(" ", "-");
@@ -113,17 +113,39 @@ public async Task<IActionResult> Edit(int Id)
 
                 if (product.ImageUpload != null)
                 {
+                  
+                    //upload new image
                     string uploadsDir = Path.Combine(_webHostEnvironment.WebRootPath, "media/products");
                     string imageName = Guid.NewGuid().ToString() + "_" + product.ImageUpload.FileName;
                     string filePath = Path.Combine(uploadsDir, imageName);
+                    //delete old picture
+                    string oldfilePath = Path.Combine(uploadsDir, existed_product.Image);
+                    try
+                    {
+                        if (System.IO.File.Exists(oldfilePath))
+                        {
+                            System.IO.File.Delete(oldfilePath);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        ModelState.AddModelError("", "An error occurred while deleting the product image");
+                    } 
 
                     FileStream fs = new FileStream(filePath, FileMode.Create);
                     await product.ImageUpload.CopyToAsync(fs);
                     fs.Close();
-                    product.Image = imageName;
+                    existed_product.Image = imageName;
+                   
                 }
-
-                _dataContext.Update(product);
+                // Update other product properties
+                existed_product.Name = product.Name;
+                existed_product.Description = product.Description;
+                existed_product.Price = product.Price;
+                existed_product.CategoryId = product.CategoryId;
+                existed_product.BrandId = product.BrandId;
+                // ... other properties
+                _dataContext.Update(existed_product);
                 await _dataContext.SaveChangesAsync();
                 TempData["success"] = "Cập nhật sản phẩm thành công";
                 return RedirectToAction("Index");
@@ -148,14 +170,23 @@ public async Task<IActionResult> Edit(int Id)
         public async Task<IActionResult> Delete(int Id)
         {
             ProductModel product = await _dataContext.Products.FindAsync(Id);
-            if(!string.Equals(product.Image,"noname.jpg"))
-            {
+            if (product == null) 
+            { 
+                return NotFound(); // Handle product not found
+            }
+            
                 string uploadsDir = Path.Combine(_webHostEnvironment.WebRootPath, "media/products");
-                string oldfileImage = Path.Combine(uploadsDir, product.Image);
-                if(System.IO.File.Exists(oldfileImage))
+                string oldfilePath = Path.Combine(uploadsDir, product.Image);
+            try
+            {
+                if (System.IO.File.Exists(oldfilePath))
                 {
-                    System.IO.File.Delete(oldfileImage);
-                }    
+                    System.IO.File.Delete(oldfilePath);
+                }
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", "An error occurred while deleting the product image");
             }
             _dataContext.Products.Remove(product);
             await _dataContext.SaveChangesAsync();
