@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebBanHang.Models;
 using WebBanHang.Repository;
@@ -8,49 +6,50 @@ using WebBanHang.Repository;
 namespace WebBanHang.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class CategoryController : Controller
+    public class BrandController : Controller
     {
         private readonly DataContext _dataContext;
 
-        public CategoryController(DataContext context)
+        
+        public BrandController(DataContext context)
         {
             _dataContext = context;
-            
+
         }
-        public async  Task<IActionResult> Index()
+        public async Task<IActionResult> Index()
         {
-            return View(await _dataContext.Categories.OrderByDescending(p => p.Id).ToListAsync());
+            return View(await _dataContext.Brands.OrderByDescending(p => p.Id).ToListAsync());
         }
         public async Task<IActionResult> Edit(int Id)
         {
-            CategoryModel category = await _dataContext.Categories.FindAsync(Id);
-            return View(category);
+            BrandModel brand = await _dataContext.Brands.FindAsync(Id);
+            return View(brand);
         }
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
             return View();
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(CategoryModel category)
+        public async Task<IActionResult> Create(BrandModel brand)
         {
-           
+
 
             if (ModelState.IsValid)
             {
-                category.Slug = category.Name.Replace(" ", "-");
-                var slug = await _dataContext.Categories.FirstOrDefaultAsync(p => p.Slug == category.Slug);
+                brand.Slug = brand.Name.Replace(" ", "-");
+                var slug = await _dataContext.Categories.FirstOrDefaultAsync(p => p.Slug == brand.Slug);
                 if (slug != null)
                 {
                     ModelState.AddModelError("", "Danh mục đã có trong database");
-                    return View(category);
+                    return View(brand);
                 }
 
 
 
-                _dataContext.Add(category);
+                _dataContext.Add(brand);
                 await _dataContext.SaveChangesAsync();
-                TempData["success"] = "Thêm danh mục thành công";
+                TempData["success"] = "Thêm thương hiệu thành công";
                 return RedirectToAction("Index");
             }
             else
@@ -68,29 +67,29 @@ namespace WebBanHang.Areas.Admin.Controllers
                 return BadRequest(errorMessage);
             }
 
-            return View(category);
+            return View(brand);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(CategoryModel category)
+        public async Task<IActionResult> Edit(BrandModel brand)
         {
 
 
             if (ModelState.IsValid)
             {
-                category.Slug = category.Name.Replace(" ", "-");
-                var slug = await _dataContext.Categories.FirstOrDefaultAsync(p => p.Slug == category.Slug);
+                brand.Slug = brand.Name.Replace(" ", "-");
+                var slug = await _dataContext.Categories.FirstOrDefaultAsync(p => p.Slug == brand.Slug);
                 if (slug != null)
                 {
-                    ModelState.AddModelError("", "Danh mục đã có trong database");
-                    return View(category);
+                    ModelState.AddModelError("", "Thương Hiệu đã có trong database");
+                    return View(brand);
                 }
 
 
 
-                _dataContext.Update(category);
+                _dataContext.Update(brand);
                 await _dataContext.SaveChangesAsync();
-                TempData["success"] = "Cập nhật danh mục thành công";
+                TempData["success"] = "Cập nhật thương hiệu thành công";
                 return RedirectToAction("Index");
             }
             else
@@ -108,15 +107,15 @@ namespace WebBanHang.Areas.Admin.Controllers
                 return BadRequest(errorMessage);
             }
 
-            return View(category);
+            return View(brand);
         }
         public async Task<IActionResult> Delete(int Id)
         {
-            CategoryModel category = await _dataContext.Categories.FindAsync(Id);
-            
-            _dataContext.Categories.Remove(category);
+            BrandModel brand = await _dataContext.Brands.FindAsync(Id);
+
+            _dataContext.Brands.Remove(brand);
             await _dataContext.SaveChangesAsync();
-            TempData["success"] = "Danh mục bị xoá";
+            TempData["success"] = "Thương hiệu bị xoá";
             return RedirectToAction("Index");
         }
     }
