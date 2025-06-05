@@ -85,6 +85,88 @@
       ]
     },
     {
+      "Route": "backend/js/site.9883qfohr7.js",
+      "AssetFile": "backend/js/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l/3AijfhdwaVdgmENPdmQUn++6tM61nBYK8Bb7Pjke8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 16:52:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9883qfohr7"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l/3AijfhdwaVdgmENPdmQUn++6tM61nBYK8Bb7Pjke8="
+        },
+        {
+          "Name": "label",
+          "Value": "backend/js/site.js"
+        }
+      ]
+    },
+    {
+      "Route": "backend/js/site.js",
+      "AssetFile": "backend/js/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l/3AijfhdwaVdgmENPdmQUn++6tM61nBYK8Bb7Pjke8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 16:52:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l/3AijfhdwaVdgmENPdmQUn++6tM61nBYK8Bb7Pjke8="
+        }
+      ]
+    },
+    {
       "Route": "css/animate.4n2duddgf0.css",
       "AssetFile": "css/animate.css",
       "Selectors": [],

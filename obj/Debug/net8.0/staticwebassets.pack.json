@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\WebBanHang.srwzz0o2ul.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\backend\\js\\site.js",
+      "PackagePath": "staticwebassets\\backend\\js\\site.js"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },

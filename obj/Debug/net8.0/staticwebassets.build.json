@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kgaEjiHU0+1yJZ31zGjp1J+r0y9CQr3dGBB8wciAbUU=",
+  "Hash": "9f7SCYqxIGkfh1PwWgzvvR1cUyuKL3QqGLmnxFk5v44=",
   "Source": "WebBanHang",
   "BasePath": "_content/WebBanHang",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebBanHang.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\backend\\js\\site.js",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "backend/js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9883qfohr7",
+      "Integrity": "l/3AijfhdwaVdgmENPdmQUn++6tM61nBYK8Bb7Pjke8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\backend\\js\\site.js"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\css\\animate.css",
@@ -1740,6 +1761,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "backend/js/site.9883qfohr7.js",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\backend\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l/3AijfhdwaVdgmENPdmQUn++6tM61nBYK8Bb7Pjke8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 16:52:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9883qfohr7"
+        },
+        {
+          "Name": "label",
+          "Value": "backend/js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l/3AijfhdwaVdgmENPdmQUn++6tM61nBYK8Bb7Pjke8="
+        }
+      ]
+    },
+    {
+      "Route": "backend/js/site.js",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\backend\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l/3AijfhdwaVdgmENPdmQUn++6tM61nBYK8Bb7Pjke8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 16:52:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l/3AijfhdwaVdgmENPdmQUn++6tM61nBYK8Bb7Pjke8="
+        }
+      ]
+    },
     {
       "Route": "css/animate.4n2duddgf0.css",
       "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\wwwroot\\css\\animate.css",

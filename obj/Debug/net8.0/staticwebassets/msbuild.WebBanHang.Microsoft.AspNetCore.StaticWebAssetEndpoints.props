@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/WebBanHang/backend/js/site.9883qfohr7.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\backend\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9883qfohr7"},{"Name":"integrity","Value":"sha256-l/3AijfhdwaVdgmENPdmQUn\u002B\u002B6tM61nBYK8Bb7Pjke8="},{"Name":"label","Value":"_content/WebBanHang/backend/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"663"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022l/3AijfhdwaVdgmENPdmQUn\u002B\u002B6tM61nBYK8Bb7Pjke8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 16:52:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebBanHang/backend/js/site.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\backend\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-l/3AijfhdwaVdgmENPdmQUn\u002B\u002B6tM61nBYK8Bb7Pjke8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"663"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022l/3AijfhdwaVdgmENPdmQUn\u002B\u002B6tM61nBYK8Bb7Pjke8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 16:52:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebBanHang/css/animate.4n2duddgf0.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\animate.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
