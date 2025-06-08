@@ -174,3 +174,4 @@ C:\Users\Admin\source\repos\WebBanHang\WebBanHang\bin\Debug\net8.0\Newtonsoft.Js
 C:\Users\Admin\source\repos\WebBanHang\WebBanHang\obj\Debug\net8.0\scopedcss\Areas\Admin\Views - Copy\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Admin\source\repos\WebBanHang\WebBanHang\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Admin\source\repos\WebBanHang\WebBanHang\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Admin\source\repos\WebBanHang\WebBanHang\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
