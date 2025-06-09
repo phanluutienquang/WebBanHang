@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using WebBanHang.Models;
 
 namespace WebBanHang.Controllers
@@ -17,9 +18,33 @@ namespace WebBanHang.Controllers
         {
             return View();
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
         public async Task<IActionResult> Login()
         {
             return View();
+        }
+
+        [HttpPost]
+        public  async Task<IActionResult> Create(UserModel user)
+        {
+            if (ModelState.IsValid) 
+            { 
+               AppUserModel newUser = new AppUserModel { UserName = user.Username,Email = user.Email};
+               IdentityResult result = await _userManager.CreateAsync(newUser);
+                if (result.Succeeded) 
+                {
+                    TempData["success"] = "Tạo thành công";
+                  return RedirectToAction("/account");
+                }
+                foreach (IdentityError error in result.Errors) 
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+            }
+            return View(user);
         }
     }
 }
