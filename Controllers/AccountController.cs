@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using WebBanHang.Models;
+using WebBanHang.Models.ViewModels;
 
 namespace WebBanHang.Controllers
 {
@@ -14,15 +15,25 @@ namespace WebBanHang.Controllers
              _signInManager = signInManager;
             _userManager = userManager;
         }
-        public IActionResult Index()
+        public IActionResult Login(string returnUrl)
         {
-            return View();
+            return View(new LoginViewModel { ReturnUrl = returnUrl});
+        }
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginViewModel loginVM)
+        {
+            if (ModelState.IsValid)
+            {
+                Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(loginVM.Username, loginVM.Password, false, false);
+                if (result.Succeeded) 
+                {
+                    return Redirect(loginVM.ReturnUrl ?? "/");
+                }
+                ModelState.AddModelError("", "Username hoặc Password bị sai");
+            }
+            return View(loginVM);
         }
         public IActionResult Create()
-        {
-            return View();
-        }
-        public async Task<IActionResult> Login()
         {
             return View();
         }
@@ -33,7 +44,7 @@ namespace WebBanHang.Controllers
             if (ModelState.IsValid) 
             { 
                AppUserModel newUser = new AppUserModel { UserName = user.Username,Email = user.Email};
-               IdentityResult result = await _userManager.CreateAsync(newUser);
+               IdentityResult result = await _userManager.CreateAsync(newUser,user.Password);
                 if (result.Succeeded) 
                 {
                     TempData["success"] = "Tạo thành công";
@@ -45,6 +56,11 @@ namespace WebBanHang.Controllers
                 }
             }
             return View(user);
+        }
+        public async Task<IActionResult> Logout(string returnUrl = "/")
+        {
+            await _signInManager.SignOutAsync();
+            return Redirect(returnUrl);
         }
     }
 }

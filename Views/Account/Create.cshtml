@@ -2,7 +2,7 @@
 @{
 	ViewData["Title"] = "Register User";
 }
-<section id="form">
+<section id="">
 	<!--form-->
 	<div class="container">
 		<div class="row">
@@ -13,7 +13,7 @@
 					<!--sign up form-->
 					<h2>New User Signup!</h2>
 					<div asp-validation-summary="ModelOnly" class="text-danger"></div>
-					<form asp-action="Create" asp-controller="Account">
+					<form asp-action="Login" asp-controller="Account">
 						<div class="form-group">
 							<label>Username</label>
 							<input asp-for="Username" class="form-control" />
