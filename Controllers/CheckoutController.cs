@@ -40,7 +40,12 @@ namespace WebBanHang.Controllers
                     orderdetails.ProductId = cart.ProductId;
                     orderdetails.Price = cart.Price;
                     orderdetails.Quantity = cart.Quantity;
+                    _dataContext.Add(orderdetails);
+                    _dataContext.SaveChanges();
                 }
+                HttpContext.Session.Remove("Cart");
+                TempData["success"] = "Checkout thành công , vui lòng chờ duyệt đơn hàng";
+                return RedirectToAction("Index", "Cart");
             }
             return View();
         }
