@@ -1,7 +1,6 @@
-﻿
-@model IEnumerable<OrderModel>
+﻿@model IEnumerable<OrderDetails>
 @{
-    ViewData["title"] = "Order Listed";
+    ViewData["title"] = "Order Details";
 }
 <h3>List Order</h3>
 
@@ -11,7 +10,7 @@
             <th scope="col">#</th>
             <th scope="col">Order Code</th>
             <th scope="col">UserName</th>
-            
+
 
             <th scope="col">Order Date</th>
             <th scope="col">Order Status</th>
@@ -28,7 +27,7 @@
                 <td>@item.CreatedDate</td>
 
 
-               
+
                 <td>
                     @if (item.Status == 1)
                     {
@@ -41,10 +40,11 @@
                 </td>
 
                 <td>
-                    <a asp-action="ViewOrder" class="btn btn-warning btn-sm" asp-controller="Order" asp-route-ordercode="@item.OrderCode">View Order</a>
+                    <a asp-action="ViewOrder" class="btn btn-warning btn-sm" asp-controller="Order" asp-route-Id="@item.OrderCode">View Order</a>
                     <a asp-action="Delete" class="btn btn-warning btn-sm confirmDeletion" asp-controller="Order" asp-route-Id="@item.Id">Delete</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
