@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using System.Numerics;
 using WebBanHang.Models;
 using WebBanHang.Repository;
 
@@ -54,6 +55,45 @@ namespace WebBanHang.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("Edit")]
+        public async Task<IActionResult> Edit(string id, AppUserModel user)
+        {
+
+            var existingUser = await _userManager.FindByIdAsync(id);
+            if (existingUser == null)
+            {
+                return NotFound();
+            }
+            if (ModelState.IsValid)
+            {
+                existingUser.UserName = user.UserName;
+                existingUser.Email = user.Email;
+                existingUser.PhoneNumber = user.PhoneNumber;
+                existingUser.RoleId = user.RoleId;
+
+                var updateUserResult = await _userManager.UpdateAsync(existingUser);
+                if (updateUserResult.Succeeded)
+                {
+                    return RedirectToAction("Index", "User");
+                }
+                else
+                {
+                    AddIdentityErrors(updateUserResult);
+                    return View(existingUser);
+                }
+            }
+            var roles =await _roleManager.Roles.ToListAsync();
+            ViewBag.Roles = new SelectList(roles, "Id", "Name");
+
+            // Model validation failed
+            TempData["error"] = "Model validation failed. ";
+            var errors = ModelState.Values.SelectMany(v => v.Errors.Select(e => e.ErrorMessage)).ToList();
+            string errorMessage = string.Join("\n", errors);
+            return View(existingUser);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         [Route("Create")]
 
         public async Task<IActionResult> Create(AppUserModel user)
@@ -93,6 +133,7 @@ namespace WebBanHang.Areas.Admin.Controllers
             return View(user);
         }
        
+
         [HttpGet]
         [Route("Delete")]
         public async Task<IActionResult> Delete(string id)
@@ -113,6 +154,13 @@ namespace WebBanHang.Areas.Admin.Controllers
             }
             TempData["success"] = "User đã được xoá thành công";
             return RedirectToAction("Index");
+        }
+        private void AddIdentityErrors(IdentityResult identityResult) 
+        {
+            foreach (var error in identityResult.Errors) 
+            {
+                ModelState.AddModelError(string.Empty, error.Description);
+            }
         }
 
     }
