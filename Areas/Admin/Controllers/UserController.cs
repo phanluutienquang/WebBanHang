@@ -14,18 +14,28 @@ namespace WebBanHang.Areas.Admin.Controllers
     {
         private readonly UserManager<AppUserModel> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly DataContext _dataContext;
 
-        public UserController(UserManager<AppUserModel> userManager, RoleManager<IdentityRole> roleManager)
+        public UserController(DataContext context, UserManager<AppUserModel> userManager, RoleManager<IdentityRole> roleManager)
         {
 
             _userManager = userManager;
             _roleManager = roleManager;
+            _dataContext = context;
         }
         [HttpGet]
         [Route("Index")]
         public async Task<IActionResult> Index()
         {
-            return View(await _userManager.Users.OrderByDescending(p => p.Id).ToListAsync());
+            var userWithRoles = await (from u in _dataContext.Users
+                                       join ur in _dataContext.UserRoles on u.Id equals ur.UserId
+                                       join r in _dataContext.Roles on ur.RoleId equals r.Id
+                                       select new
+                                       {
+                                           User = u,
+                                           Role = r.Name
+                                       }).ToListAsync();
+            return View(userWithRoles);
         }
         [HttpGet]
         [Route("Create")]
@@ -98,11 +108,23 @@ namespace WebBanHang.Areas.Admin.Controllers
 
         public async Task<IActionResult> Create(AppUserModel user)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 var createUserResult = await _userManager.CreateAsync(user,user.PasswordHash);
                 if (createUserResult.Succeeded) 
                 {
+                    var createUser = await _userManager.FindByEmailAsync(user.Email);
+                    var userId = createUser.Id; // Lấy user Id
+                    var role = _roleManager.FindByIdAsync(user.RoleId); //Lấy RoleId 
+                    // gán quyền
+                    var addToRoleResult = await _userManager.AddToRoleAsync(createUser, role.Result.Name);
+                    if (!addToRoleResult.Succeeded)
+                    { 
+                       foreach(var error in createUserResult.Errors)
+                        {
+                            ModelState.AddModelError(string.Empty, error.Description);
+                        }    
+                    }    
                     return RedirectToAction("Index", "User");
                 }
                 else
