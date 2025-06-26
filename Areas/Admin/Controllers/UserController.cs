@@ -33,7 +33,7 @@ namespace WebBanHang.Areas.Admin.Controllers
                                        select new
                                        {
                                            User = u,
-                                           Role = r.Name
+                                           RoleName = r.Name
                                        }).ToListAsync();
             return View(userWithRoles);
         }
