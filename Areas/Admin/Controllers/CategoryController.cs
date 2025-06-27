@@ -9,6 +9,7 @@ using WebBanHang.Repository;
 namespace WebBanHang.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Route("Admin/Category")]
     [Authorize]
     public class CategoryController : Controller
     {
@@ -19,15 +20,36 @@ namespace WebBanHang.Areas.Admin.Controllers
             _dataContext = context;
             
         }
-        public async  Task<IActionResult> Index()
+        [Route("Index")]
+        //public async  Task<IActionResult> Index(int pg = 1)
+        //{
+         //   return View(await _dataContext.Categories.OrderByDescending(p => p.Id).ToListAsync());
+        //}
+
+        public async Task<IActionResult> Index(int pg = 1)
         {
-            return View(await _dataContext.Categories.OrderByDescending(p => p.Id).ToListAsync());
+            List<CategoryModel> categories = _dataContext.Categories.ToList();
+
+            const int pageSize = 10;
+            if(pg <1 )
+            {
+                pg = 1;
+            }    
+            int recsCount = categories.Count();
+
+            var pager = new Paginate(recsCount,pg,pageSize);
+            int recsSkip = (pg - 1) * pageSize;
+            var data = categories.Skip(recsSkip).Take(pager.PageSize).ToList();
+            ViewBag.Page = pager;
+            return View(data);
         }
+
         public async Task<IActionResult> Edit(int Id)
         {
             CategoryModel category = await _dataContext.Categories.FindAsync(Id);
             return View(category);
         }
+        [Route("Create")]
         public IActionResult Create()
         {
             return View();

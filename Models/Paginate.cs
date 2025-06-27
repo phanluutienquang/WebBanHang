@@ -14,7 +14,7 @@
         {
 
         }
-        public Paginate(int totalItems, int pageSize = 10, int page)
+        public Paginate(int totalItems, int page,int pageSize = 1)
         {
             int totalPages = (int)Math.Ceiling((decimal)totalItems/(decimal)pageSize);
             int currentPage = page;
@@ -27,6 +27,20 @@
                 endPage = endPage - (startPage - 1);
                 startPage = 1;
             }
+            if (endPage > totalPages)
+            { 
+              endPage = totalPages;
+                if(endPage > 10)
+                {
+                    startPage = endPage - 9;
+                }    
+            }
+            TotalItems = totalItems;
+            CurrentPage = currentPage;
+            PageSize = pageSize;
+            TotalPages = totalPages;
+            StartPage = startPage;
+            EndPage = endPage;
         }
     }
 }
