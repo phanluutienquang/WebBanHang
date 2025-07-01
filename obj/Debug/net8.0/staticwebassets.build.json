@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TwqQvPJNegAeUaJQLyIXhZN1PJ51RNkiZgqKM6SJ6u8=",
+  "Hash": "K67qXIknRq53U7vBYqrZMQxoRt2zFy4S0pyzkWknwok=",
   "Source": "WebBanHang",
   "BasePath": "_content/WebBanHang",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "srwzz0o2ul",
-      "Integrity": "qJOCGmavQKRyjSU/IMuhnWN2YvBPwTtDEqZqSRGh40M=",
+      "Fingerprint": "gimm00jnoh",
+      "Integrity": "iPRNgDwppGzLXC3X6OQ37N35MWy15jlaG3/n1eGozHo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebBanHang.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "srwzz0o2ul",
-      "Integrity": "qJOCGmavQKRyjSU/IMuhnWN2YvBPwTtDEqZqSRGh40M=",
+      "Fingerprint": "gimm00jnoh",
+      "Integrity": "iPRNgDwppGzLXC3X6OQ37N35MWy15jlaG3/n1eGozHo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebBanHang.bundle.scp.css"
@@ -8414,7 +8414,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3415"
+          "Value": "2268"
         },
         {
           "Name": "Content-Type",
@@ -8422,11 +8422,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qJOCGmavQKRyjSU/IMuhnWN2YvBPwTtDEqZqSRGh40M=\""
+          "Value": "\"iPRNgDwppGzLXC3X6OQ37N35MWy15jlaG3/n1eGozHo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 16:54:32 GMT"
+          "Value": "Tue, 01 Jul 2025 16:19:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8436,12 +8436,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qJOCGmavQKRyjSU/IMuhnWN2YvBPwTtDEqZqSRGh40M="
+          "Value": "sha256-iPRNgDwppGzLXC3X6OQ37N35MWy15jlaG3/n1eGozHo="
         }
       ]
     },
     {
-      "Route": "WebBanHang.srwzz0o2ul.bundle.scp.css",
+      "Route": "WebBanHang.gimm00jnoh.bundle.scp.css",
       "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebBanHang.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -8451,7 +8451,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3415"
+          "Value": "2268"
         },
         {
           "Name": "Content-Type",
@@ -8459,11 +8459,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qJOCGmavQKRyjSU/IMuhnWN2YvBPwTtDEqZqSRGh40M=\""
+          "Value": "\"iPRNgDwppGzLXC3X6OQ37N35MWy15jlaG3/n1eGozHo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 16:54:32 GMT"
+          "Value": "Tue, 01 Jul 2025 16:19:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8473,7 +8473,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "srwzz0o2ul"
+          "Value": "gimm00jnoh"
         },
         {
           "Name": "label",
@@ -8481,12 +8481,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qJOCGmavQKRyjSU/IMuhnWN2YvBPwTtDEqZqSRGh40M="
+          "Value": "sha256-iPRNgDwppGzLXC3X6OQ37N35MWy15jlaG3/n1eGozHo="
         }
       ]
     },
     {
-      "Route": "WebBanHang.srwzz0o2ul.styles.css",
+      "Route": "WebBanHang.gimm00jnoh.styles.css",
       "AssetFile": "C:\\Users\\Admin\\source\\repos\\WebBanHang\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebBanHang.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -8496,7 +8496,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3415"
+          "Value": "2268"
         },
         {
           "Name": "Content-Type",
@@ -8504,11 +8504,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qJOCGmavQKRyjSU/IMuhnWN2YvBPwTtDEqZqSRGh40M=\""
+          "Value": "\"iPRNgDwppGzLXC3X6OQ37N35MWy15jlaG3/n1eGozHo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 16:54:32 GMT"
+          "Value": "Tue, 01 Jul 2025 16:19:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8518,7 +8518,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "srwzz0o2ul"
+          "Value": "gimm00jnoh"
         },
         {
           "Name": "label",
@@ -8526,7 +8526,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qJOCGmavQKRyjSU/IMuhnWN2YvBPwTtDEqZqSRGh40M="
+          "Value": "sha256-iPRNgDwppGzLXC3X6OQ37N35MWy15jlaG3/n1eGozHo="
         }
       ]
     },
@@ -8541,7 +8541,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3415"
+          "Value": "2268"
         },
         {
           "Name": "Content-Type",
@@ -8549,11 +8549,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qJOCGmavQKRyjSU/IMuhnWN2YvBPwTtDEqZqSRGh40M=\""
+          "Value": "\"iPRNgDwppGzLXC3X6OQ37N35MWy15jlaG3/n1eGozHo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Jun 2025 16:54:32 GMT"
+          "Value": "Tue, 01 Jul 2025 16:19:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8563,7 +8563,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qJOCGmavQKRyjSU/IMuhnWN2YvBPwTtDEqZqSRGh40M="
+          "Value": "sha256-iPRNgDwppGzLXC3X6OQ37N35MWy15jlaG3/n1eGozHo="
         }
       ]
     }
